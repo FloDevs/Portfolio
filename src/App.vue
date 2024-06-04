@@ -1,13 +1,7 @@
-<script setup>
-import myHeader from './components/myHeader.vue';
-</script>
-
 <template>
-
-<RouterView/>
-
+  <RouterView />
 </template>
 
-<style scoped>
+<script setup></script>
 
-</style>
+<style scoped></style>
