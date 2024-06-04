@@ -9,8 +9,9 @@
           alt="Image dans une fenêtre du Curriculum Vitæ de Florian Bouteiller"
         />
         <h3>CV réalisé en HTML et CSS</h3>
-        <span
-          >Réalisé le <time datetime="2024-02-28">28 Février 2024</time></span
+        <span>
+          À retrouver <a href="https://github.com/FloDevs/cv_fb" target="_blank">ici</a><br />
+          Réalisé le <time datetime="2024-02-28">28 Février 2024</time></span
         >
       </div>
       <div class="portfolio-item" v-on:click="openModal(2)">
@@ -19,7 +20,12 @@
           alt="Image dans une fenêtre du cahier des charges réalisé par Florian Bouteiller"
         />
         <h3>Cahier des charges de la Socketterie</h3>
-        <span>Réalisé le <time datetime="2024-03-22">22 Mars 2024</time></span>
+
+        <span>
+          À retrouver <a href="../assets/CahierDesCharges.pdf" target="_blank">ici</a
+          ><br />
+          Réalisé le <time datetime="2024-03-22">22 Mars 2024</time></span
+        >
       </div>
       <div class="portfolio-item" v-on:click="openModal(5)">
         <img
@@ -27,7 +33,11 @@
           alt="Image dans une fenêtre d'une section commentaire réalisé par Florian Bouteiller"
         />
         <h3>Espace commentaire dynamique en Javascript</h3>
-        <span>Réalisé le <time datetime="2024-04-05">05 Avril 2024</time></span>
+        <span>
+          À retrouver <a href="https://github.com/FloDevs/commentaryJs" target="_blank">ici</a
+          ><br />
+          Réalisé le <time datetime="2024-04-05">05 Avril 2024</time></span
+        >
       </div>
 
       <!-- Modal -->
